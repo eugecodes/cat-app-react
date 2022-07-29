@@ -16,22 +16,7 @@ function CatBreedDetail({ initialData }){
         console.log(initialData)
         if(initialData) 
             setDetails(initialData.filter(item => item.id === id))
-        else
-            console.log('---u')
     }, [initialData])
-
-    const StarsCard = (key, item) => {
-        let stars = []
-        for(let i=1; i<=item; i++){
-            stars.push(<FontAwesomeIcon icon={faStar} />)
-        }
-        return(
-            <Card>
-                <Card.Text>** {key}</Card.Text>
-                <Card.Text>{stars.join()}</Card.Text>
-            </Card>
-        ) 
-    }
 
     return (
         <Container>
