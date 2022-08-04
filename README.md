@@ -2,8 +2,10 @@
 
 ## To run
 
+```js
 npm install
 npm start
+```
 
 ![Screenshot_4](https://user-images.githubusercontent.com/72326632/182842610-b0fd7aaa-f788-4741-a20e-a27d879a5459.png)
 ![Screenshot_5](https://user-images.githubusercontent.com/72326632/182842624-31778080-b27b-4f30-8148-99bd0fa400cc.png)
