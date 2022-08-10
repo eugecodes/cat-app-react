@@ -1,5 +1,8 @@
 # CatApp React (Adding the react native version now)
 
+![shoow](https://user-images.githubusercontent.com/72326632/183994351-b8312e2f-06e9-41f3-a716-5785244e6ee1.gif)
+
+
 ## To run
 
 ```js
