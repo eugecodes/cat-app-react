@@ -1,17 +1,17 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from "@reduxjs/toolkit";
 
-export const breedsSlice = createSlice({
-  name: 'breeds',
+export const categoriesSlice = createSlice({
+  name: "categories",
   initialState: {
     value: [],
   },
   reducers: {
-    set_breeds: (state, action) => {
-      state.value = action.payload
+    set_categories: (state, action) => {
+      state.value = action.payload;
     },
   },
-})
+});
 
-export const { set_breeds } = breedsSlice.actions
+export const { set_categories } = categoriesSlice.actions;
 
-export default breedsSlice.reducer
+export default categoriesSlice.reducer;

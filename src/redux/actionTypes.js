@@ -1,2 +1,3 @@
-export const SET_CAT_LIST = 'SET_CAT_LIST'
-export const SET_CAT_BREEDS = 'SET_CAT_BREEDS'
+export const SET_MOVIE_LIST = "SET_MOVIE_LIST";
+export const SET_MOVIES = "SET_MOVIES";
+export const SET_TITLES = "SET_TITLES";

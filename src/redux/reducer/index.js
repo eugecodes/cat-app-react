@@ -1,4 +1,4 @@
-import { combineReducers } from 'redux'
-import catListReducer from './catList'
-import catBreedsReducer from './catBreeds'
-export default combineReducers({ catListReducer, catBreedsReducer })
+import { combineReducers } from "redux";
+import moviesReducer from "./movies";
+import categoriesReducer from "./categories";
+export default combineReducers({ moviesReducer, categoriesReducer });
